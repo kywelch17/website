@@ -1,8 +1,7 @@
-body{
-    margin: 0;
+body, html {
+    margin: 0 auto;
     padding: 0;
     background-color: cyan;
-    background-size: cover;
 }
 .box{
     width: 450px;
@@ -56,33 +55,8 @@ ul{
     font-size: 60px;
     transition: all ease-in-out 250ms;
 }
-.box li a:hover{
+.box li a:hover {
     color: cyan;
-}
-
-.navbar {
-    width: 100%;
-    background-color: cyan;
-    overflow: auto;
-}
-
-.navbar a {
-    float: left;
-    padding: 12px;
-    background-color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 23%; /* Four links of equal widths */
-    text-align: center;
-    transition: all ease-in-out 250ms;
-}
-
-.navbar a:hover {
-    background-color: #000;
-}
-
-.navbar a.active {
-    background-color: #4CAF50;
 }
 
 @media screen and (max-width: 500px) {
