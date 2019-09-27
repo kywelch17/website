@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    margin: 5% auto 20%;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    color: darkcyan;
+}
+
+.box ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: cyan;
+}
+
+.navbar {
+    width: 100%;
+    background-color: cyan;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%; /* Four links of equal widths */
+    text-align: center;
+    transition: all ease-in-out 250ms;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
