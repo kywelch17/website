@@ -7,3 +7,5 @@ What did I learn:
  - Web Development Design and Techniques
  - CSS3 and HTML5
  - My Webstorm IDE
+
+*Note: Resume, and pic will not be posted on github.*
