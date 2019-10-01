@@ -1,6 +1,6 @@
 # My Personal Website
 
-This is my personal website for use. I will use these to showcase my projects, as they will be posted on www.github.com/kywelch17. 
+This is my [personal website](www.http://kylenwelch.com) for use. I will use these to showcase my projects, as they will be posted on www.github.com/kywelch17. 
 
 What did I learn:
  - Brushed up on some HTML/CSS skills
