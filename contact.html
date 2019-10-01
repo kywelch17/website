@@ -5,23 +5,28 @@
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="contactstyle.css">
     <link rel="icon" href="me.jpg">
     <title>Personal WebSite</title>
-    <link rel="icon" href="me.jpg">
 </head>
 <body>
-<div class="navbar">
+<div class="topnav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="resume.pdf" download="KyleWelchResume">Resume</a>
+    <a href="blankresume.pdf" download="KyleWelchResume">Resume</a>
     <a href="contact.html">Contact</a>
+</div>
+<div class="intro">
+    <p><span>Give me your message, and I will try to get back to you!</span></p>
 </div>
 <form method="POST" action="https://formspree.io/kywelch17@gmail.com">
     <input type="name" name="name" placeholder="Your name" required="required">
     <input type="email" name="email" placeholder="Your email" required="required">
     <textarea name="message" placeholder="Test Message" required="required"></textarea>
-    <a href="thank_you.html" target="popup" onclick="window.open('thank_you.html','name','width=600,height=400')"><button type="submit">Send Test</button></a>
+    <a href="thank_you.html" target="popup" onclick="window.open('thank_you.html','name','width=600,height=400')"><button type="submit">Send</button></a>
 </form>
+<footer>
+    <p>Form is powered by <a href="https://formspree.io/">formspree.io</a></p>
+</footer>
 </body>
 </html>

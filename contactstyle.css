@@ -15,7 +15,29 @@ body, html {
         border-bottom: 1px solid #ccc;
     }
 
+}.topnav {
+     overflow: hidden;
+     background-color: darkcyan;
+ }
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
+
+.topnav a:hover {
+    background-color: cyan;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: darkcyan;
+}
+
 * {
     box-sizing: border-box;
     border: 0;
@@ -45,38 +67,30 @@ input[type=submit]:hover {
     background-color: darkcyan;
 }
 
-/* Style the container/contact section */
-.container {
-    border-radius: 5px;
-    padding: 10px;
-    height: 100%;
-    width: 100%;
-    background-color: cyan;
+form{
+    margin-top: 5%;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    left: 0;
-    right: 0;
+.intro{
+    text-align:center;
+    margin-top: 5%;
+    font-size: 28px;
 }
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.fa-input {
-    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-#subject{
+.intro span{
     background-color: darkcyan;
+    color: white;
+}
+
+footer{
+    background: darkcyan;
+    margin-top: 5%;
+    height: 50%;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -85,21 +99,4 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
-}
-
-button{
-    color: black;
-}
-
-.navbar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.navbar-item {
-    /* honestly, you need nothing in here */
 }
