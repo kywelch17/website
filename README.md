@@ -8,4 +8,5 @@ What did I learn:
  - CSS3 and HTML5
  - My Webstorm IDE
 
-*Note: Resume, and pic will not be posted on github.*
+*Note: Resume, and pic will not be posted on github. Also, this website is always changing as I try to add new features and clean it up
+whenever I get the opportunity to.*
